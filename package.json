@@ -8,7 +8,7 @@
     "element"
   ],
   "homepage": "https://github.com/d3fc/d3fc-element",
-  "main" : "build/d3fc-element.js",
+  "main": "build/d3fc-element.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/d3fc/d3fc-element"
@@ -20,13 +20,15 @@
   },
   "devDependencies": {
     "babel-polyfill": "^6.13.0",
+    "babel-plugin-transform-custom-element-classes": "0.1.0",
+    "custom-event-polyfill": "^0.3.0",
     "d3": "^4.1.1",
     "d3fc-series": "^2.0.1",
     "d3fc-extent": "^2.2.0",
-    "d3fc-scripts": "^1.6.1"
+    "d3fc-scripts": "^1.6.1",
+    "document-register-element": "^1.7.2"
   },
   "dependencies": {
-    "d3-selection": "^1.0.2",
-    "document-register-element": "^1.0.10"
+    "d3-selection": "^1.0.2"
   }
 }
